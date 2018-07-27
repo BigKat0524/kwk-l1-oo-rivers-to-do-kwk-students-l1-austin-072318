@@ -25,6 +25,9 @@ class River
  end 
  def dry_up
    @discharge -= 50 
+   
+  def river_info
+    return #{@name} is 
  end 
 end
 
