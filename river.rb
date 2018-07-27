@@ -27,12 +27,15 @@ class River
    @discharge -= 50 
    
   def river_info
-    return #{@name} is 
+    return "#{@name} is #{@length} and the dicharge is at #{discharge}%"
  end 
 end
 
 river1 = River.new 
 river1.name = "The Nile"
+river1.length = 4,258
+river1.dry_up 
+
 
 
 
