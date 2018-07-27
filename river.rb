@@ -26,7 +26,10 @@ class River
  def dry_up
    @discharge -= 50 
  end 
- river1 = River.new 
- 
- 
 end
+
+river1 = River.new 
+river1.name = "The Nile"
+
+
+
